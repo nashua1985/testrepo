@@ -1,0 +1,7 @@
+<URLs>
+    <NP1 value="https://dks-qa1.dksxchange.com/"/>
+    <eomQA value="https://eomqa.dcsg.com:42001/manh/index.html"/>
+    <eomLoad value="https://eomload.dcsg.com:42001/manh/index.html"/>
+    <coreQA value="https://crm.qa.dcsg.com/CORE/home/CustomerPoint.aspx?sub_account=B23W3FXZ&amp;account_type_id=1"/>
+    <DSGProd value="https://www.dickssportinggoods.com"/>
+</URLs>

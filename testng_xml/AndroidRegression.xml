@@ -1,0 +1,17 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<!-- suite name="SmokeTests" parallel="methods" thread-count="8"> -->
+<suite name="Android_Automated_Tests" parallel="methods"
+       thread-count="30">
+    <test name="Android_Regression" verbose="3">
+        <classes>
+            <class name="com.dsg.testng.android.tests.AndroidSmokeTests">
+                <methods>
+                    <!-- include name="registeredAccountLogin"></include> -->
+                </methods>
+            </class>
+            <class
+                    name="com.dsg.testng.android.tests.AndroidRegressionTests">
+            </class>
+        </classes>
+    </test>
+</suite>

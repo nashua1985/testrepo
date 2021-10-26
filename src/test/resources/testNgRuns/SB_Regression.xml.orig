@@ -1,0 +1,14 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="SB_Smoke" verbose="1">
+    <test name="SB_Smoke">
+        <parameter name="myName"  value="true"/>
+        <classes>
+<<<<<<< HEAD
+            <class name="com.dsg.runners.CucumberRunner">
+=======
+            <class name="com.dsg.cucumber.runners.CucumberRunner">
+>>>>>>> be0b2004935e64e674e930b603db98978be109ae
+            </class>
+        </classes>
+    </test>
+</suite>

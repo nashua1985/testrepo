@@ -1,0 +1,7 @@
+<Library>
+    <MobileDevice id="jakeAndroid" type="Android" deviceName="myTestDevice" platformName="Android" platformVersion="10"
+                  appPackage="dsgui.android" appActivity="dsgui.android.activity.MainActivity"
+                  url="http://localhost:4723/wd/hub"/>
+    <MobileDevice id="jakeIOS" type="IOS" deviceName="myTestDevice" platformName="IOS" platformVersion="10"
+                  appPackage="" appActivity="" url="http://localhost:4723/wd/hub"/>
+</Library>

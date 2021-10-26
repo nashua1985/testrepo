@@ -1,0 +1,7 @@
+.idea
+*.iml
+target
+.DS_Store
+test-output
+targetcucumber-html-reports
+/log/

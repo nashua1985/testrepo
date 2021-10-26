@@ -1,0 +1,76 @@
+<Skus>
+    <!--Custom Driver-->
+    <!--Sku value='20667858'-->
+    <Sku value='20667864'>
+        <Hand value='Right Hand'/>
+        <Flex value='Regular Flex'/>
+        <Shaft value='Fujikura VENTUS Blue 6 Graphite'/>
+        <Loft value='10.5°'/>
+    </Sku>
+
+    <!--Personalized Golf Balls-->
+    <Sku value='20988005'>
+        <TextColor value='Purple'/>
+        <Line1 value='Test'/>
+        <Line2 value='Test 2'/>
+        <Line3 value='Test 3'/>
+    </Sku>
+
+    <!--Personalized Golf Balls- w/ text location-->
+    <Sku value='19863095'>
+        <TextColor value='Green'/>
+        <TextLocation value='TargetLine'/>
+        <Line1 value='HEY'/>
+    </Sku>
+
+    <!--Custom Jersey- Custom Name & Number-->
+    <Sku value='19088494'>
+        <Size value='M'/>
+        <Number value='99'/>
+        <Name value='DSG'/>
+    </Sku>
+
+    <!--Custom Jersey- Existing Player-->
+    <Sku value='18696306'>
+        <Size value='50'/>
+        <SportsTeam value='Pittsburgh Penguins'/>
+        <SelectAPlayer value='CROSBY 87'/>
+        <Number value='87'/>
+        <Name value='CROSBY'/>
+    </Sku>
+    <!--Custom Football Helmet-->
+    <Sku value='17037501'>
+        <Size value='S'/>
+        <ShellColor value='Purple'/>
+        <Facemask value='S2BDC-HS4'/>
+        <FacemaskColor value='Green Bay Gold'/>
+    </Sku>
+    <!--Custom Irons-->
+    <Sku value='20931429'>
+        <Shaft value='Graphite'/>
+        <Includes value='7'/>
+        <GripBuild value='2 Wraps (+1/32nd)'/>
+        <CustomLoft value='Standard'/>
+        <Length value='Standard'/>
+        <Lie value='Standard'/>
+        <ShaftMaterial value='Graphite ($124.99 ea.)'/>
+        <Tipping value='Standard'/>
+        <Hand value='Left Hand'/>
+        <SetMakeUp value='4-PW'/>
+        <Grip value='1 STOCK Lamkin Crossline 360 Black/Grey .600 Rem (SIM Iron/Res)'/>
+        <ShaftManufacturer value='TaylorMade'/>
+        <GripBrand value='Lamkin'/>
+        <Flex value='Ladies'/>
+        <Shaft value='TaylorMade TM Tuned 45 IR'/>
+    </Sku>
+
+    <!--Custom Shoes-->
+    <Sku value='20634643'>
+        <ShoeSize value='M9.0/W10.5'/>
+        <RightSlidePrintedText value='Bryant'/>
+        <LeftSlidePrintedText value='24'/>
+
+    </Sku>
+</Skus>
+
+

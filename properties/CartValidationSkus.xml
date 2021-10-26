@@ -1,0 +1,32 @@
+<Skus>
+
+
+    <!--Shoes w/ Width -->
+    <Sku value='12691165'>
+        <!-- Color value='White/Mtllc Slvr/Mid Navy' / -->
+        <Color value='Black/Black'/>
+        <ShoeSize value='9.0'/>
+        <ShoeWidth value='Extra Wide/4E'/>
+    </Sku>
+
+    <!--Mace -->
+    <Sku value='13521668'>
+    </Sku>
+
+    <!--Baseball Bat -->
+    <Sku value='20283045'>
+        <Length value='31&quot;'/>
+        <Weight value='26 OZ'/>
+    </Sku>
+
+    <!--Pants w/ Inseam > <Sku value='18621973'> <Color value='Navy' /> <Size
+        value='34' /> <Inseam value='32' /> </Sku -->
+
+
+    <!--Nike shirt - many color options -->
+    <Sku value='19218374'>
+        <Color value='Gym Red'/>
+        <Size value='L'/>
+    </Sku>
+
+</Skus>
