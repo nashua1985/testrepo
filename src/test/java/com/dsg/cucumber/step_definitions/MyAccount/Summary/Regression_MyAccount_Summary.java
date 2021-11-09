@@ -1,10 +1,10 @@
 package com.dsg.cucumber.step_definitions.MyAccount.Summary;
 
+import java.util.ArrayList;
 import java.util.List;
 
 import org.apache.log4j.Logger;
 import org.openqa.selenium.By;
-import org.openqa.selenium.WebElement;
 import org.testng.Assert;
 
 import com.dsg.cucumber.config.Base;
@@ -59,6 +59,19 @@ public class Regression_MyAccount_Summary {
 			Assert.fail("Could not find the ScoreCard member " + "Expected Number: " + text + "Actual number: "
 					+ actualText);
 		}
+	}
+
+	@Given("verify account sign in page on clicking manage account")
+	public void verify_account_sign_in_page_on_clicking_manage_account(String title) throws Exception {
+		System.out.println(Base.getDriver().getTitle());
+		commonMethods.clickWhenVisible(MyAccount.manageAccount, timeout);
+		System.out.println(Base.getDriver().getTitle());
+		commonMethods.switch_windows(timeout);
+		Assert.assertEquals(Base.getDriver().getTitle(), title);
+        ArrayList<String> tabs2 = new ArrayList<String>(Base.getDriver().getWindowHandles());
+		Base.getDriver().switchTo().window(tabs2.get(0));
+		System.out.println(Base.getDriver().getTitle());
+
 	}
 
 	@Given("verify recent purchanse displayed correctly")

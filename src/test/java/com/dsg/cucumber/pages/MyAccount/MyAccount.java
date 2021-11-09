@@ -16,6 +16,8 @@ public class MyAccount {
 	public static By numberOfPoints = By.xpath("//myaccount-scorecard-member/div/div[2]/div[2]/span");
 
 	public static By text = By.xpath("//myaccount-account-summary/div/div[1]/div[2]/myaccount-reward-list");
+	
+	public static By manageAccount = By.id("btn-manage");
 
 	public static By purchase_orders = By.cssSelector("table.cdk-table tbody tr");
 
